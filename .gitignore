@@ -1,0 +1,23 @@
+# 运行期数据与存档（含好感度、待办、窗口位置、启动偏好）
+data/
+*.log
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 开发期测试与预览脚本/截图（跑完即删，不入库）
+test_*.py
+preview_*.py
+*_preview.png
+*_realtime.png
+
+# WorkBuddy 项目工作记录（不公开）
+.workbuddy/
+
+# 本地 3D 实验素材（不入库，不影响桌宠运行）
+assets/3d/
+
+# 系统临时文件
+.DS_Store
+Thumbs.db
